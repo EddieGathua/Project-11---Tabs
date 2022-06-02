@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="title">
+        <h2>About</h2>
+        <p>
+          When in the Course of human events, it becomes necessary for one
+          people to dissolve the political bands which have connected them with
+          another, and to assume among the powers of the earth, the separate and
+          equal station to which the Laws of Nature and of Nature's God entitle
+          them, a decent respect to the opinions of mankind requires that they
+          should declare the causes which impel them to the separation.
+        </p>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="images/hero-bcg.jpeg" alt="about picture" />
+        </article>
+        <article class="about">
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">History</button>
+            <button class="tab-btn" data-id="vision">Vision</button>
+            <button class="tab-btn" data-id="goals">Goals</button>
+          </div>
+          <article class="about-content">
+            <div class="content active" id="history">
+              <h4>History</h4>
+              <p>
+                We hold these truths to be self-evident, that all men are
+                created equal, that they are endowed by their Creator with
+                certain unalienable Rights, that among these are Life, Liberty
+                and the pursuit of Happiness.--That to secure these rights,
+                Governments are instituted among Men, deriving their just powers
+                from the consent of the governed,
+              </p>
+            </div>
+            <div class="content" id="vision">
+              <h4>Vision</h4>
+              <p>
+                That whenever any Form of Government becomes destructive of
+                these ends, it is the Right of the People to alter or to abolish
+                it, and to institute new Government, laying its foundation on
+                such principles and organizing its powers in such form, as to
+                them shall seem most likely to effect their Safety and Happiness
+              </p>
+            </div>
+            <div class="content" id="goals">
+              <h4>Goals</h4>
+              <p>
+                Prudence, indeed, will dictate that Governments long established
+                should not be changed for light and transient causes; and
+                accordingly all experience hath shewn, that mankind are more
+                disposed to suffer, while evils are sufferable, than to right
+                themselves by abolishing the forms to which they are accustomed.
+              </p>
+            </div>
+          </article>
+        </article>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+  </body>
+</html>
